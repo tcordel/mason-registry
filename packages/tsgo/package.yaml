@@ -1,5 +1,8 @@
 ---
 name: tsgo
+deprecation:
+  since: "2026-08-13"
+  message: The native TypeScript compiler preview has been released as TypeScript 7 in the regular typescript package. Use the package `tsc` instead.
 description: |
   Native TypeScript compiler port. Language Server Protocol support with partial
   features including errors, hover, go to definition, references, and signature help.
@@ -13,7 +16,7 @@ categories:
   - LSP
 
 source:
-  id: pkg:npm/@typescript/native-preview@7.0.0-dev.20260703.1
+  id: pkg:npm/@typescript/native-preview@7.0.0-dev.20260707.2
 
 bin:
   tsgo: npm:tsgo
